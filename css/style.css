@@ -1,0 +1,689 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	padding: 0;
+	margin: 0 auto;
+}
+#wrapper{
+	width: 100%;
+	margin: 0 auto;
+}
+a{
+	text-decoration: none;
+	list-style: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #222222;
+	font-size: 14px;
+}
+h1{
+	font-size: 80px;
+	text-transform: uppercase;
+	color: #222222;
+	font-weight: 300;
+}
+h1::after {
+    content: ' ';
+    display: block;
+    border: 1px solid #c41230;
+    width: 6%;
+    position: relative;
+    left: 47%;
+    margin-top: 30px;
+}
+h2{
+	font-size: 50px;
+	text-transform: uppercase;
+	color: #222222;
+	font-weight: 300;
+}
+h2::after {
+    content: ' ';
+    display: block;
+    border: 1px solid #c41230;
+    width: 6%;
+    position: relative;
+    left: 47%;
+    margin-top: 30px;
+}
+h3{
+	font-size: 24px;
+	color: #222222;
+	font-weight: 300;
+}
+h4{
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #222222;
+	font-weight: 300;
+}
+h5{
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: 300;
+	color: #222222;
+}
+h5::after {
+    content: ' ';
+    display: block;
+    border: 1px solid #d0d0d0;
+    width: 6%;
+    position: relative;
+    left: 47%;
+    margin-top: 30px;
+}
+h6{
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #999999;
+	font-weight: 300;
+}
+p {
+    font-size: 16px;
+    color: #a4a4a4;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    float: left;
+    padding: 45px;
+}
+button:hover {
+    background-color: #ccc !important;
+}
+.manager button:hover{
+    color: #222;
+}
+
+/*header*/
+header {
+    background-image: url("../img/header.png");
+    width: 100%;
+    height: 100%;
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#navigation {
+    width: 1300px;
+    margin: 0 auto;
+}
+nav {
+    float: right;
+}
+
+.logo{
+	float: left;
+	padding: 35px;
+    margin-left: 25%;
+}
+.title h3 {
+    width: 33%;
+    margin: 0 auto;
+}
+.title h4{
+    visibility: hidden;
+}
+.title {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin-top: 180px;
+}
+/*services*/
+.service1, .service2, .service3{
+	width: 33%;
+	display: inline-block;
+	background-color: #fbfbfb;
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 70px; 
+}
+.service2{
+    background-color: #ededed;
+}
+/*.service1:hover, .service2:hover, .service3:hover{
+	background-color: #ededed;
+	transition:0.4s;
+}*/
+#services p {
+    width: 63%;
+    margin: 0 auto;
+}
+/*poslovi*/
+#poslovi {
+    width: 40%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 140px; 
+}
+#poslovi > p {
+    font-size: 18px;
+    text-align: left;
+    width: 65%;
+}
+#poslovi h3{
+	margin-top: 80px;
+}
+#poslovi > h4{
+	text-align: left;
+	margin-top: 130px;
+}
+.dev button {
+    border: 1px solid #bbbbbb;
+    width: 86px;
+    height: 30;
+    color: #c41230;
+    background: transparent;
+    cursor: pointer;
+    margin-left: 7px;
+}
+.dev {
+    width: 950px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.dev > p {
+    width: 50%;
+}
+.manager button{
+	border: 1px solid #bbbbbb;
+    width: 86px;
+    height: 30;
+    color: #ccc;
+    background: transparent;
+    cursor: pointer;
+    margin-left: 7px;
+}
+.manager {
+    width: 950px;
+    margin: 0 auto;
+    margin-top: 130px;
+    color: #f2f2f2;
+}
+.manager > p {
+    width: 50%;
+}
+.manager h4{
+	color: #f2f2f2;
+	padding-top: 100px;
+}
+button.prijava{
+	float: right; 
+	border: 1px solid #222222; 
+	color: #222222; 
+	width: 145px; 
+	height: 40px;
+}
+button.prijava2{
+	float: right; 
+	border: 1px solid #f2f2f2; 
+	color: #f2f2f2; 
+	width: 145px; 
+	height: 40px;
+}
+#bg-color {
+    width: 100%;
+    background-color: #222;
+    padding-bottom: 50px;
+}
+button.ajax{
+	width: 220px;
+	height:53px;
+	background-color: #d7d7d7;
+	border: none;
+	cursor: pointer;
+}
+#designer .ajax{
+    display: block;
+    margin-top: 100px !important;
+    margin: 0 auto;
+
+}
+/*media*/
+#media {
+    text-align: center;
+    background-color: #fbfbfb;
+}
+#media > p {
+    width: 40%;
+    margin: 0 auto;
+    text-align: left;
+    line-height: 25px;
+}
+#media > p:nth-child(2n) {
+    margin-top: 50px;
+}
+#media h6 {
+    padding-top: 90px;
+}
+/*social*/
+#social {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#social img:hover {
+    border-radius: 50%;
+    transition: 0.4s;
+}
+/*footer*/
+footer{
+	height: auto;
+	background-color: #222222;
+	color: #f2f2f2; 
+	text-align: center;
+	padding: 75px;
+}
+.office{
+	width: 200px;
+	text-align: left;
+	margin-right: 200px;
+	display: inline-table;
+}
+.office > p {
+    display: inline-block;
+    color: #666666;
+}
+.office img {
+    margin-right: 5px;
+}
+/*toggle menu*/
+#toggle {
+  display: block;
+  width: 28px;
+  height: 30px;
+  margin: 30px auto 10px;
+}
+#toggle > a{
+    color: #fff !important;
+}
+#toggle span:after,
+#toggle span:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -9px;
+}
+#toggle span:after{
+  top: 9px;
+}
+#toggle span {
+  position: relative;
+  display: block;
+}
+
+#toggle span,
+#toggle span:after,
+#toggle span:before {
+  width: 100%;
+  height: 5px;
+  background-color: #222;
+  transition: all 0.3s;
+  backface-visibility: hidden;
+  border-radius: 2px;
+}
+/* on activation */
+#toggle.on span {
+  background-color: transparent;
+}
+#toggle.on span:before {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+#toggle.on span:after {
+  transform: rotate(-45deg) translate(7px, -8px);
+}
+#toggle.on + #menu {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* menu appearance*/
+#toggle{
+    display: none;
+}
+#menu{
+    display: none;
+}
+#menu {
+  position: absolute;
+  color: #fff !important;
+  width: 200px;
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+  border-radius: 4px;
+  background: rgba(38,38,38,0.9);
+  box-shadow: 0 1px 8px rgba(0,0,0,0.05);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.4s;
+  right: 50px;
+  top: 50px;
+
+}
+/*media queries*/
+@media screen and (max-width: 1200px){
+    #toggle{
+        display: block;
+        float: right;
+        margin-right: 5%;
+    }
+    #menu{
+        display: inline-block;
+    }
+    nav{
+        display: none;
+    }
+    .title{
+        margin-top: 0px;
+    }
+    a{
+        color: #cccccc;
+    }
+    li {
+        float: none;
+        padding: 25px;
+    }
+    .office{
+        margin-right: 147px;
+    }
+    .social-small li {
+        display: inline-block;
+    }
+}
+@media screen and (max-width: 1024px){
+    .office {
+        margin-right: 88px;
+    }
+    .logo{
+        margin-left: 0;
+    }
+    .title h3 {
+        width: 58%;
+    }
+    #services p {
+        width: 80%;
+        margin: 0 auto;
+    }
+    #poslovi {
+        width: 70%;
+    }
+    #media > p {
+        width: 74%;
+    }
+    h1::after{
+        visibility: hidden;
+    }
+    h2::after {
+        width: 20%;
+        left: 39%;
+    }
+    h5::after {
+        width: 13%;
+        left: 43%;
+    }
+
+}
+@media screen and (max-width: 768px){
+    .title h3 {
+        width: 71%;
+    }
+    .service1, .service2, .service3 {
+        width: 32%;
+    }
+    h5::after {
+        width: 13%;
+        left: 43%;
+    }
+    #poslovi {
+        width: 100%;
+    }
+    .dev, .manager {
+        width: 92%;
+    }
+    #media > p {
+        width: 87%;
+    }
+    .office {
+        display: block;
+    }
+    .logo{
+        margin-left: 0;
+    }
+    #services p {
+        width: 85%;
+    }
+     h1::after{
+        visibility: hidden;
+    }
+    .office{
+        width: 229px;
+    }
+    .office p{
+        letter-spacing: 0.1px;
+        margin-bottom: 0px;
+    }
+    .office:nth-child(-n+2){
+        margin-bottom: 40px;
+    } 
+}
+@media screen and (max-width: 480px){
+    #menu{
+        width: 100%;
+        top: 70px;
+        left: -20px;
+        height: 400px;
+    }
+    .title h3 {
+        width: 100%;
+    }
+    .service1, .service2, .service3 {
+        width: 100%;
+    }
+    h5::after {
+        width: 13%;
+        left: 43%;
+    }
+    #poslovi {
+        width: 90%;
+    }
+    .dev, .manager {
+        width: 92%;
+    }
+    #media > p {
+        width: 87%;
+    }
+    .office {
+        display: block;
+    }
+    h1 {
+        font-size: 57px;
+    }
+    .logo{
+        margin-left: 0;
+    }
+    .title h3 {
+        visibility: hidden;
+    }
+    .title h4 {
+        visibility: visible;
+        margin-top: -130px;
+        font-weight: bold;
+        font-size: 16px;
+    }
+    h1::after{
+        visibility: hidden;
+    }
+    button.prijava{
+        display: none;
+    }
+    .dev > p {
+    width: 101%;
+    }
+    .dev button{
+        border: none;
+    }
+    button.prijava2{
+        display: none;
+    }
+    .manager > p {
+        width: 100%;
+    }
+    .manager button{
+        border: none;
+    }
+    #designer{
+        background-color: #f8f7f5;
+    }
+    #bg-color{
+        background-color: #fff;
+        color: #222;
+        padding-bottom: 0px;
+    }
+    .dev{
+        margin-top: 0px;
+    }
+    .dev h4{
+        color: #222;
+    }
+    .manager h4{
+        color: 222;
+        padding-top: 0px;
+    }
+    .manager{
+        margin-top: 0px;
+    }
+    #poslovi h3{
+        margin-bottom: 100px;
+    }
+    .office{
+        width: 229px;
+    }
+    .office p{
+        letter-spacing: 0.1px;
+        margin-bottom: 0px;
+    }
+    .office:nth-child(-n+2){
+        margin-bottom: 40px;
+    }
+    .social-small {
+        margin-top: 110px;
+    }
+    .social-small li p {
+        margin-right: 150px;
+    }
+}
+@media screen and (max-width: 320px){
+    #menu{
+        width: 100%;
+        top: 70px;
+    }
+    .logo {
+        float: left;
+        padding: 16px;
+        margin-left: 0;
+    }
+    .title h3 {
+        width: 100%;
+    }
+    .service1, .service2, .service3 {
+        width: 100%;
+    }
+    h5::after {
+        width: 13%;
+        left: 43%;
+    }
+    #poslovi {
+        width: 90%;
+        margin-top: 40px;
+    }
+    .dev, .manager {
+        width: 92%;
+    }
+    #media > p {
+        width: 90%;
+    }
+    .office {
+        display: block;
+    }
+    h1 {
+        font-size: 57px;
+    }
+    #services p {
+        width: 85%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #menu{
+        width: 100%;
+        top: 70px;
+        left: -20px;
+        height: 400px;
+    }
+    button.prijava{
+        display: none;
+    }
+    .dev > p {
+    width: 101%;
+    }
+    .dev button{
+        border: none;
+    }
+    button.prijava2{
+        display: none;
+    }
+    .manager > p {
+        width: 100%;
+    }
+    .manager button{
+        border: none;
+    }
+    #designer{
+        background-color: #f8f7f5;
+    }
+    #bg-color{
+        background-color: #fff;
+        color: #222;
+        padding-bottom: 0px;
+    }
+    .dev{
+        margin-top: 0px;
+    }
+    .dev h4{
+        color: #222;
+    }
+    .manager h4{
+        color: 222;
+        padding-top: 0px;
+    }
+    .manager{
+        margin-top: 0px;
+    }
+    #poslovi h3{
+        margin-bottom: 100px;
+    }
+    footer{
+        padding: 40px;
+    }
+    .office{
+        width: 229px;
+        margin-bottom: 40px;
+    }
+    }
+    .office p{
+        letter-spacing: 0.1px;
+        margin-bottom: 0px;
+    }
+    .social-small li p {
+        margin-right: 22px;
+    }        
+}
+
+
+
+
+
+
